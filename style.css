@@ -1,0 +1,270 @@
+body{
+	font-family:verdana,sans-serif;
+	font-size:12pt;
+}
+
+#wrapper{
+	/*border:1px solid #000;*/
+	width:942px;
+	height:3315px;
+	margin:auto;
+}
+
+#header{
+	/*border:1px solid #f00;*/
+	height:934px;
+	margin:0;
+	background-image:url("images/background.jpg");
+	background-repeat:no-repeat;
+}
+
+#bloc-sup{
+	/*border:1px solid #0f0;*/
+	height:354px;
+}
+
+#col-gauche{
+	
+	width:247px;
+	height:354px;
+	float:left;
+	position:relative;
+}
+
+#logo{
+	width:198px;
+	height:178px;
+	background-image:url("images/logo.png");
+	position:relative;
+	top:28px;
+	left:20px;
+
+}
+
+#col-centrale{
+	width:389px;
+	height:354px;
+	float:left;
+}
+
+#langues{
+	border:1px solid #000;
+	margin:0;
+	margin-top:27px;
+	margin-left:245px;
+	width:67px;
+	padding-right: 20px;
+	background-color: #42474a;
+}
+
+#langues li{
+	/*border:1px solid #fff;*/
+	padding-left: 0px;
+	padding-right:7px;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:inline-block;
+	width:21px;
+	text-align: center;
+	border-right:1px solid #fff;
+
+}
+
+#langues li:last-child{
+	border-right: none;
+}
+
+#langues li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+#slogan{
+	text-align:center;
+	font-size:34pt;
+	font-family:ananda black;
+	transform:rotate(-15deg);
+	-ms-transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+	-o-transform:rotate(-15deg);
+	position:relative;
+	top:60px;
+}
+
+
+
+#col-droite{
+	width:306px;
+	height:354px;
+	float:left;
+}
+
+#searchbar{
+	position:relative;
+	width:1040px;
+	height:auto;
+	display:inline-block;
+
+}
+
+#searchbar .text{
+	width:128px;
+	
+}
+
+#searchbar .champ{
+	width:222px;
+	height:27px;
+	float:left;
+	position:relative;
+	top:27px;
+
+}
+
+#searchbar .bouton{
+	background-image:url("images/loupe-blanche.png");
+	background-repeat:no-repeat;
+	width:40px;
+	height:34px;
+	position:relative;
+	top:27px;
+	background-color:#42474a;
+}
+
+#bloc-central{
+	
+	height:47px;
+}
+
+#menu{
+	height:45px;
+	margin:0;
+	width:746px;
+	margin:auto;
+	padding-left:7px;
+	border-bottom:1px solid #518f05;
+	border-top:1px solid #518f05;
+}
+
+#menu li{
+	display:inline-block;
+	margin-top:11px;
+	margin-left:-7px;
+	border-right: 2px solid #518f05;
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+
+#menu li a{
+	text-decoration: none;
+	color:#000;
+	font-size:1.5em;
+	font-family:arial;
+	padding-left:13px;
+	padding-right:13px;
+	text-align:center;
+	line-height: 21px;
+}
+
+#bloc-inf{
+	height:530px;
+}
+
+#selection{
+	height:530px;
+	width:375px;
+	float:left;
+	position:relative;
+}
+
+#selection-moment{
+	font-family:ananda black;
+	font-size:2.2em;
+	position:relative;
+	top:97px;
+	left:145px;
+	width:180px;
+
+}
+
+#slider{
+	height:530px;
+	width:565px;
+	float:left;
+}
+
+
+
+#contenu{
+	border:1px solid #0f0;
+	height:2117px;
+	padding-top:69px;
+}
+
+#nos-sirops{
+	color:#518f05;
+	width:340px;
+	margin:auto;
+	text-align: center;
+	position:relative;
+	top:36px;
+	font-family:ananda black;
+	font-size:3em;
+	background-color:#fff;
+}
+
+#produits{
+	border-top:3px solid #518f05;
+	height:370px;
+	width:824px;
+	margin:auto;
+}
+
+.boites{
+	height: 244px;
+	width:239px;
+	margin-top:70px;
+	position:relative;
+	float:left;
+}
+
+.images{
+	
+	height:193px;
+}
+
+.boutons{
+	border:3px solid #518f05;
+	height:35px;
+	margin-top:11px;
+	border-radius:12px;
+	background-color:#42474a;
+}
+
+.boutons a{
+	color:#fff;
+	font-family:ananda black;
+	font-size:1.5em;
+	text-align:center;
+	text-decoration: none;
+	display:block;
+	line-height:28px;
+}
+
+	
+
+#les-exotiques{
+	margin-left:50px;
+}
+
+#les-nouveautes{
+	float:right;
+}
+
+#footer{
+	border:1px solid #00f;
+	height:264px;
+}
